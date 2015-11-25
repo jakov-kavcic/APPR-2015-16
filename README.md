@@ -12,6 +12,7 @@ Repozitorij z gradivi pri predmetu APPR v ??tudijskem letu 2015/16
 Vir za mojo analizo je Eurostat:
 
 -http://appsso.eurostat.ec.europa.eu/nui/show.do
+
 -http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do#
 
 
