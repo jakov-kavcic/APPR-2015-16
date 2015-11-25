@@ -10,6 +10,7 @@ Repozitorij z gradivi pri predmetu APPR v ??tudijskem letu 2015/16
 ??e vpra??a?? povpre??nega ??tudenta: "Zakaj ??tudira???", bo najverjetneje odgovoril, da bi rad bolj??o pla??o in bolj??e prilo??nosti za svoje otroke. Zaradi tega sem se odlo??il raziskati mo??no povezavo med ravnijo izobrazbe v dr??avi in povpre??nim razpolo??ljivim dohodkom na ravni dr??av Evropske Unije. Med analizo se bom osredoto??il le na dolo??ene dr??ave, ki naj bi predstavljale ekstreme v ravni izobrazbe.
 
 Vir za mojo analizo je Eurostat:
+
 -http://appsso.eurostat.ec.europa.eu/nui/show.do
 -http://appsso.eurostat.ec.europa.eu/nui/submitViewTableAction.do#
 
