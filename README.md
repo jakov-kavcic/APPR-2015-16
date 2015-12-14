@@ -37,13 +37,13 @@ Alternativno ga lahko poženemo tudi tako, da poženemo program `shiny.r`.
 
 Za zagon tega vzorca je potrebno namestiti sledeče pakete za R:
 
-* `knitr` - za izdelovanje poro??ila
-* `rmarkdown` - za prevajanje poro??ila v obliki RMarkdown
+* `knitr` - za izdelovanje poročila
+* `rmarkdown` - za prevajanje poročila v obliki RMarkdown
 * `shiny` - za prikaz spletnega vmesnika
 * `DT` - za prikaz interaktivne tabele
 * `maptools` - za uvoz zemljevidov
 * `sp` - za delo z zemljevidi
-* `digest` - za zgo????evalne funkcije (uporabljajo se za shranjevanje zemljevidov)
+* `digest` - za zgoščevalne funkcije (uporabljajo se za shranjevanje zemljevidov)
 * `httr` - za pobiranje spletnih strani
 * `XML` - za branje spletnih strani
-* `extrafont` - za pravilen prikaz ??umnikov (neobvezno)
+* `extrafont` - za pravilen prikaz šumnikov (neobvezno)
