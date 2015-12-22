@@ -1,31 +1,31 @@
 "","2005","2006","2007","2008","2009","2010","2011","2012","2013","2014"
-"Belgium,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",36.3,35.7,34.8,33.6,32.4,32.6,31.9,31.4,30.4,29.5
-"Bulgaria,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",33.4,30.6,28.7,28.3,27.6,25.9,24,23,22.1,22.6
-"Czech Republic,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",16.8,16.4,16.2,15.8,15.2,14.4,13.9,13.4,12.9,12.4
-"Denmark,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",25.7,25.4,32.3,32.9,32.2,31.8,30.7,29.8,29.5,28.2
+"Belgium",36.3,35.7,34.8,33.6,32.4,32.6,31.9,31.4,30.4,29.5
+"Bulgaria",33.4,30.6,28.7,28.3,27.6,25.9,24,23,22.1,22.6
+"Czech Republic",16.8,16.4,16.2,15.8,15.2,14.4,13.9,13.4,12.9,12.4
+"Denmark",25.7,25.4,32.3,32.9,32.2,31.8,30.7,29.8,29.5,28.2
 "Germany ",24.8,24.6,23.5,22.3,22,21.4,18.1,17.9,17.7,19.7
-"Estonia,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",19.9,20.6,20,20.4,19.2,18.2,17.7,16.8,15.8,15.1
-"Ireland,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",36.5,35.2,34.1,32.4,31.5,30.5,29.7,28.8,27.2,25.6
-"Greece,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",40,41.4,40.8,39.7,39.6,38.5,37.1,35.9,34.5,33.1
-"Spain,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",51.7,50.9,50.1,49.8,49.5,48.1,47,46.4,45.6,44.5
-"France,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",35.5,35,34,33,32.4,31.9,31.2,30.4,28,26.5
-"Croatia,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",29.3,28.3,26.7,25.9,25.3,25.4,24.6,23.1,22.4,20.8
-"Italy,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",50.6,49.5,48.7,47.9,47.1,46.3,45.5,44.2,43.4,42.3
-"Cyprus,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",36.2,33.6,31.1,30.4,31.2,29.6,28.3,26.4,25.4,26.1
-"Latvia,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",24.6,24.6,24,22.8,21.5,19.5,19.5,17.4,16.6,16.1
-"Lithuania,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",20.8,20.7,19.9,18.5,18,17.1,15.9,15,14.4,14.2
-"Luxembourg,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",38.7,39.3,38.7,36.8,28.5,28.9,29.1,28.4,26.1,24.9
-"Hungary,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",28.5,27.3,26.3,25.8,25,24.4,24.3,23.5,22.8,22
-"Malta,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",68.9,67.5,67.3,65.1,62,60.3,58.9,56.7,54.9,53.6
-"Netherlands,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",32.6,32.3,31.5,31.3,31.2,31.9,31.6,30.8,29,28.8
-"Austria,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",24.5,25,25.4,24.6,23.8,23.2,23.1,22.4,22.2,20.3
-"Poland,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",21.8,21,20.4,19.6,18.7,18,17.5,16.7,16.1,15.5
-"Portugal,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",72.7,71.7,71.4,70.8,69.2,67.3,64.2,61.6,59.4,56.3
-"Romania,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",33.3,32.1,30.9,30.2,30.2,30.6,30,29.2,28.9,31.2
-"Slovenia,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",24,22.8,22.2,21.9,20.8,20.9,19.7,19,18.5,18.4
-"Slovakia,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",20,18.9,18.4,17.6,16.5,16.3,15.7,15,14.7,15.2
-"Finland,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",27,26.2,25.4,25.1,24.4,23.6,22.9,21.8,20.8,20.1
-"Sweden,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",21.3,26.9,26.5,26.2,25.4,25,24.4,23.8,22.9,22.1
-"United Kingdom,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",28.4,27.5,27,26.9,25.7,24.1,23.8,22.2,21.7,20.9
-"Iceland,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",43.7,43.8,42.8,42.5,41.2,40.6,36.9,36.5,35.2,33.9
-"Norway,Total,From 15 to 64 years,Percentage,Less than primary, primary and lower secondary education ",16.7,29.3,29.3,27.2,26.1,25.7,25.4,24.5,23.6,24.6
+"Estonia",19.9,20.6,20,20.4,19.2,18.2,17.7,16.8,15.8,15.1
+"Ireland",36.5,35.2,34.1,32.4,31.5,30.5,29.7,28.8,27.2,25.6
+"Greece",40,41.4,40.8,39.7,39.6,38.5,37.1,35.9,34.5,33.1
+"Spain",51.7,50.9,50.1,49.8,49.5,48.1,47,46.4,45.6,44.5
+"France",35.5,35,34,33,32.4,31.9,31.2,30.4,28,26.5
+"Croatia",29.3,28.3,26.7,25.9,25.3,25.4,24.6,23.1,22.4,20.8
+"Italy",50.6,49.5,48.7,47.9,47.1,46.3,45.5,44.2,43.4,42.3
+"Cyprus",36.2,33.6,31.1,30.4,31.2,29.6,28.3,26.4,25.4,26.1
+"Latvia",24.6,24.6,24,22.8,21.5,19.5,19.5,17.4,16.6,16.1
+"Lithuania",20.8,20.7,19.9,18.5,18,17.1,15.9,15,14.4,14.2
+"Luxembourg",38.7,39.3,38.7,36.8,28.5,28.9,29.1,28.4,26.1,24.9
+"Hungary",28.5,27.3,26.3,25.8,25,24.4,24.3,23.5,22.8,22
+"Malta",68.9,67.5,67.3,65.1,62,60.3,58.9,56.7,54.9,53.6
+"Netherlands",32.6,32.3,31.5,31.3,31.2,31.9,31.6,30.8,29,28.8
+"Austria",24.5,25,25.4,24.6,23.8,23.2,23.1,22.4,22.2,20.3
+"Poland",21.8,21,20.4,19.6,18.7,18,17.5,16.7,16.1,15.5
+"Portugal",72.7,71.7,71.4,70.8,69.2,67.3,64.2,61.6,59.4,56.3
+"Romania",33.3,32.1,30.9,30.2,30.2,30.6,30,29.2,28.9,31.2
+"Slovenia",24,22.8,22.2,21.9,20.8,20.9,19.7,19,18.5,18.4
+"Slovakia",20,18.9,18.4,17.6,16.5,16.3,15.7,15,14.7,15.2
+"Finland",27,26.2,25.4,25.1,24.4,23.6,22.9,21.8,20.8,20.1
+"Sweden",21.3,26.9,26.5,26.2,25.4,25,24.4,23.8,22.9,22.1
+"United Kingdom",28.4,27.5,27,26.9,25.7,24.1,23.8,22.2,21.7,20.9
+"Iceland",43.7,43.8,42.8,42.5,41.2,40.6,36.9,36.5,35.2,33.9
+"Norway",16.7,29.3,29.3,27.2,26.1,25.7,25.4,24.5,23.6,24.6
