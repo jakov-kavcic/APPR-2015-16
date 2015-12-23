@@ -4,7 +4,11 @@
 #   loadfonts()
 # Slednja ukaza izvedite samo enkrat in ju ne vključujte v program!
 
-library(extrafont)
+library("extrafont",quietly = TRUE)
+loadfonts(device = "pdf", quiet = TRUE)
+# font_import(paths = NULL, recursive = TRUE, prompt = FALSE,
+#             pattern = NULL )
+# loadfonts()
 
 # Prosim, da uporabljate eno od sledečih vrednosti za parameter family:
 # * "Arial"
@@ -16,4 +20,4 @@ library(extrafont)
 # * "Trebuchet MS"
 # * "Times New Roman"
 # * "Verdana"
-pdf.options(family = "Arial")
+pdf.options(family = "Times New Roman")

@@ -1,8 +1,9 @@
-library("knitr")
-library("XML")
-library("ggplot2")
-library("dplyr")
-library("nlme")
+library("nlme", quietly = TRUE)
+library("knitr", quietly = TRUE)
+library("XML", quietly = TRUE)
+library("ggplot2",warn.conflicts = TRUE, quietly = TRUE)
+library("dplyr", quietly = TRUE)
+library("nlme", quietly = TRUE)
 
 # Uvozimo funkcije za delo z datotekami XML.
 #source("lib/xml.r", encoding = "UTF-8")
