@@ -3,6 +3,12 @@ source("lib/libraries.r",
       echo = FALSE,
       verbose = FALSE,
       encoding = "UTF-8")
+
+source("uvoz/xml+.R", 
+       echo = FALSE,
+       verbose = FALSE,
+       encoding = "UTF-8")
+
 uvozi <- function(a) {
   return(read.delim(a,
       header = TRUE,
@@ -22,7 +28,7 @@ edu_1 <- uvozi(e_1)
 edu_2 <- uvozi(e_2)
 edu_3 <- uvozi(e_3)
 income <- uvozi(i_1)
-leta <- c(2005,2006,2007,2008,2009,2010,2011,2012,2013,2014)
+leta <- c("2005","2006","2007","2008","2009","2010","2011","2012","2013","2014")
 imena2 <- c("med 0. in 2. (%)",
            "3. ali 4. (%)",
            "med 5. in 8. (%)",
@@ -46,31 +52,51 @@ imena<- Vectorize(imena)
 ###
 ciscenje <- function(t){
 t <- t[7:36,]
-names(t) <- c(2005,2006,2007,2008,2009,2010,2011,2012,2013,2014)
 row.names(t) <- imena(row.names(t))
 return(t)
 }
 ###
 
 #Čiščenje
-income <- ciscenje(income)
 
+income <- ciscenje(income)
 edu_1 <- ciscenje(edu_1)
 edu_2 <- ciscenje(edu_2)
 edu_3 <- ciscenje(edu_3)
 
-drzave <- row.names(income)
 
-income <- sapply(income,as.numeric)
-edu_1 <- sapply(edu_1,as.numeric)
-edu_2 <- sapply(edu_2,as.numeric)
-edu_3 <- sapply(edu_3,as.numeric)
+drzave <- row.names(income)
+drzave[5] <- "Germany"
+
+income <- sapply(income,as.numeric) %>% data.frame()
+edu_1 <- sapply(edu_1,as.numeric) %>% data.frame()
+edu_2 <- sapply(edu_2,as.numeric) %>% data.frame()
+edu_3 <- sapply(edu_3,as.numeric) %>% data.frame()
 
 income <- income*1000
+
 row.names(edu_1) <- drzave
 row.names(edu_2) <- drzave
 row.names(edu_3) <- drzave
 row.names(income) <- drzave
+
+names(edu_3) <- leta
+names(edu_2) <- leta
+names(edu_1) <- leta
+names(income) <- leta
+
+row.names(income_prim) <- leta
+row.names(income_sec) <- leta
+row.names(income_ter) <- leta
+
+drzave2 <- names(income_prim)
+drzave2[6] <- "Czech Republic"
+drzave2[28] <- "United Kingdom"
+drzave2[11] <- "Germany"
+
+names(income_prim) <- drzave2
+names(income_sec) <- drzave2
+names(income_ter) <- drzave2
 
 #Funkcija za dobiti podatke od posamezne države
 posamezna.drzava <- function(ime){
@@ -84,9 +110,11 @@ posamezna.drzava <- function(ime){
 }
 
 #slovenija
+
 slovenija <- posamezna.drzava("Slovenia")
 slovenija_ <- slovenija
 row.names(slovenija_) <- imena2
+
 #Zapišem tabele
 
 write.csv(income,file="podatki/income.csv")
@@ -94,6 +122,9 @@ write.csv(edu_1,file="podatki/edu_1.csv")
 write.csv(edu_2,file="podatki/edu_2.csv")
 write.csv(edu_3,file="podatki/edu_3.csv")
 write.csv(slovenija,file="podatki/slovenija.csv")
+write.csv(income_prim,file="podatki/income_prim.csv")
+write.csv(income_sec,file="podatki/income_sec.csv")
+write.csv(income_ter,file="podatki/income_ter.csv")
 
 #grafi slovenija
 

@@ -6,6 +6,7 @@ library("dplyr", quietly = TRUE)
 library("nlme", quietly = TRUE)
 library("rvest", quietly = TRUE)
 library("gsubfn", quietly = TRUE)
+library("tidyr", quietly = TRUE)
 
 # Uvozimo funkcije za delo z datotekami XML.
 #source("lib/xml.r", encoding = "UTF-8")
